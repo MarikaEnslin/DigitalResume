@@ -8,7 +8,12 @@
 
 <body>
     <header class="banners">
-        <img id="top" class="imageRoundBorder" src="images/MEnslin2.jpg" alt="Enslin picture" height="150" width="150">
+        <picture id="top">
+            <source media="(max-width: 400px)" srcset="images/MEface.jpg" style="width: 100%; height: auto;">
+            <source media="(max-width: 600px)" srcset="images/MEshoulders.jpg" style="width: 100%; height: auto;">
+            <img src="images/MEfull.jpg" alt="M Enslin picture" style="width: 100%; height: auto;">
+        </picture>
+        <!-- <img id="top" class="imageRoundBorder" src="images/MEnslin2.jpg" alt="Enslin picture" height="150" width="150"> -->
         <h1>Marika Enslin</h1>
         <p>Software developer - IT teacher</p>
     </header>

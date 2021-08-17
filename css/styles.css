@@ -31,6 +31,7 @@ section {
 }
 
 #infoArea {
+  background: white url(/images/back.jpg);
   text-align: center;
   background-color: #7AA095;
   border-color: #1F2041;
